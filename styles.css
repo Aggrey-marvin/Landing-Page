@@ -133,3 +133,38 @@ button {
     align-self: self-end;
     padding-right: 45px;
 }
+
+.cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 130px;
+}
+
+.cat-content {
+    box-sizing: border-box;
+    width: 80%;
+    /* text-align: center; */
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 40px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat-button {
+    border: 1px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 140px;
+}
+
+.footer p {
+    color: #F9FAF8;
+}
